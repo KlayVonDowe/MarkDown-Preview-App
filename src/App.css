@@ -1,31 +1,49 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.heart {
-  color: #ff0000;
-}
-
-.small {
-  font-size: 0.75rem;
-}
+body {
+  background-color:turquoise !important
+  }
+  
+  #title{
+    text-align:center;
+      color:purple;
+  }
+  #input{
+    border: 1px solid black;
+    margin:5px;
+  }
+  #markdown{
+    background-color:beige;
+    border: 1px solid black;
+    border-radius:10px;
+    margin:4px;
+    height:500px;
+  } 
+  #previewModel{
+    border: 1px solid black;
+    border-radius:10px;
+    margin:5px;
+    background-color:pink;
+    min-width:50%
+  }
+  #editor{
+    
+  }
+  img{
+    max-width: 500px
+  }
+  blockquote {
+    color: purple;
+    margin-top: 5px;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+    border-left: 4px solid rgb(105,105,105);
+  }
+  
+  code {
+      background: rgb(210,210,210);
+      padding: 1px 4px 2px 4px;
+      font-size: 12px;
+      font-family: 'Roboto Mono', sans-serif;
+      font-weight: bold;
+    }
